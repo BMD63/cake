@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Palette+Mosaic&family=Sacramento&display=swap');
+body{
+    font-family: 'comfortaa',cursive;
+    background-color: antiquewhite;
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 55px;
+}
+.menu{
+    display: flex;
+    width: 800px;
+    position: fixed;
+    background-color: rgb(250, 235, 200);
+    top: 5px;
+}
+.menu a{
+    width: 33%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 5px gray;
+    text-align: center;
+    margin: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 3px;
+}
+label{
+    display: block;
+}
+
+.dt{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px
+    ;
+}
+.dt input{
+width: 100%;
+background-color:transparent;
+font-family: inherit;
+border: none;
+border-bottom: 1px solid white;
+padding-top: 10px;
+outline: none;
+}
+.dt select{
+    width: 100%;
+background-color:transparent;
+font-family: inherit;
+border: none;
+border-bottom: 1px solid white;
+}
+.data{
+    display: flex;
+}
+.dtraw{
+    width: 50%;
+    margin: 20px;
+}
+.zakaz{
+    display: block;
+    margin: 20px;
+    }
+.zakaz textarea{
+    width: 100%;
+    resize: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.vnim li {
+    width: 90%;
+    padding-left: 5px;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px rgb(216, 183, 141);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.vnim {
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+.end{
+    width: 20%;
+    font-size: 9px;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: left;
+    text-shadow: 1px 1px 1px gray;
+    color: antiquewhite;
+}

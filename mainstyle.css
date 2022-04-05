@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Palette+Mosaic&family=Sacramento&display=swap');
+body {
+    background-color: antiquewhite;
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    font-family: 'comfortaa', cursive;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.container h1{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 5px;
+    }
+
+.menu a{
+    width: 33%;
+    text-align: center;
+    background-color: rgb(250, 235, 200);
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 2px 3px rgb(214, 200, 170);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 3px;
+}
+.info{
+    display: flex;
+    padding-top: 50px;
+}
+.txtinfo{
+    width: 100%;
+}
+.txtinfo h1 {
+    text-align: center;
+}
+.txtinfo h3{
+    text-align: center;
+}
+.lupus{
+    font-family: 'Sacramento', cursive;
+    margin-top: 25px;
+    font-size: 35px;
+    color: blueviolet;
+}
+.onas{
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px rgb(248, 218, 146);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+.onas p{
+    text-align: justify;
+}
+.listassort{
+    width: 50%;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.assort{
+    display: flex;
+}
+.assort img{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.listassort li {
+    background-color: rgb(250, 225, 193);
+    border-radius: 10px;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 3px 5px;
+}
+.assortpic {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+.assrtpic {
+    width: 25%;
+    max-height: 100%;
+}
+.assrtpic:hover{
+    width: 800px;
+    transition-duration: 0.5s
+}
+.why h1 {
+text-align: center;
+}
+.prichiny {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+.prichiny h3{
+    border-radius: 10px;
+    background-color: rgb(255, 227, 191);
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ .qrimg {
+width: 150px;
+height: 150px;
+margin: auto;
+border-radius: 10px;
+}
+.links {
+    display: flex;
+    box-sizing: border-box;
+}
+.sociallink{
+   width: 33%;
+   text-align: center;
+}
+.ikon{
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-bottom: 45px;
+}
+.logo{
+    width: 8%;
+    margin: auto;
+}
+.zakazbl{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+}
+.zakazbl img{
+    width: 22%;
+}
+
+.zakaz li{
+    font-size: 20px;
+}
+.zakaz ol{
+    width: 75%;
+    }
+
+.perehod{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+    }
+.perehod a{
+    background-color: rgb(255, 152, 16);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: brown;
+}
+.perehod a:hover{
+    box-shadow: 2px 2px 3px 5px grey;
+}
+.end{
+    color:antiquewhite;
+    font-size: 9px;
+    width: 100%;
+    text-align: left;
+    
+    }
+.site{
+    width: 20%;
+    margin-left: auto;
+    margin-right: 0;
+    text-shadow: 1px 1px 1px  grey;
+}

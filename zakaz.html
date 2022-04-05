@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ</title>
+    <link rel="stylesheet" href="zakaz.css">
+    <link rel="icon" href="utkfw.png" type=”image/x-icon”>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="index.html" class="lnkmn">Главная</a>
+            <a href="catalog.html" class="lnkmn" target="_blank">Каталог</a>
+            <a href="zakaz.html" class="lnkmn" target="_blank">Заказ</a>
+        </div>
+        <h1>Заказ</h1>
+        <form action="/">
+            <div class="data">
+                <div class="raw1 dtraw">
+                    <div class="dt">
+                        <label for="fam">Фамилия</label>
+                        <input type="text" id="fam" placeholder="Рагнарёк">
+                    </div>
+                    <div class="dt">
+                        <label for="nam">Имя</label>
+                        <input type="text" id="nam" placeholder="Ктулху">
+                    </div>
+                    <div class="dt">
+                        <label for="tel">Телефон</label>
+                        <input type="text" id="tel" placeholder="89876665555">
+                    </div>
+                </div>
+                <div class="raw2 dtraw">
+                    <div class="dt">
+                        <label for="adr">Адрес</label>
+                        <input type="text" id="adr" placeholder="Самара, ул. Пчёл, д1,">
+                    </div>
+                    <div class="dt">
+                        <label for="num">Количество</label>
+                        <input type="number" id="num" placeholder="1">
+                    </div>
+                    <div class="dt">
+                    <label for="type">Вид</label>
+                        <select name="type" id="type">
+                            <option selected value="s1">торт</option>
+                            <option value="s2">макарун</option>
+                            <option value="s3">капкейк</option>
+                            <option value="s4">бенто</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="zakaz">
+                <label for="zak">Заказ</label>
+                <textarea name="Начинки" id="zak" cols="60" rows="10"></textarea>
+                <h4>Внимание</h4>
+                <ul class="vnim">
+                    <li>Продукция отпускается не более 3 шт в одни руки</li>
+                    <li>Продукция может содержать следы арахиса, стронция и птиц</li>
+                    <li>Мы не несем ответственности за травмы нанесенные метанием продукции</li>
+                    <li>Не подходит для домашних животных</li>
+                </ul>
+                <input type="submit" value="Отправить заказ" class="btn">
+            </div>
+        </form>
+        <div class="end">
+            <div class="site">
+                <p>Сайт створено у секретній українській біолабораторії</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
